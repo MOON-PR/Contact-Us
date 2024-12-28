@@ -1,0 +1,72 @@
+/* styles/contact.css */
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6; /* Tailwind's bg-gray-100 equivalent */
+  }
+  
+  .contact-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 28rem;
+  }
+  
+  .contact-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db; /* Tailwind's border-gray-300 */
+    border-radius: 0.375rem;
+    font-size: 1rem;
+  }
+  
+  .contact-input:focus,
+  .contact-textarea:focus {
+    outline: none;
+    border-color: #3b82f6; /* Tailwind's blue-500 */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  }
+  
+  .contact-button {
+    background-color: #3b82f6; /* Tailwind's blue-500 */
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .contact-button:hover {
+    background-color: #2563eb; /* Tailwind's blue-600 */
+  }
+  
+  .contact-status {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #374151; /* Tailwind's text-gray-700 */
+  }
+  
